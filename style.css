@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+}
+
+/* BASE DU SITE */
+
+/* HEADER PART */
+
+.head-menu {
+  display: flex;
+  flex-direction: row;
+  font-family: "Mochiy Pop One", sans-serif;
+  background-color: lightblue;
+}
+
+.head-title {
+  position: relative;
+  top: 25px;
+  padding-left: 15px;
+  color: darkorchid;
+}
+
+.img-title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.nav-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-button {
+  margin: 30px;
+  font-size: 20px;
+  list-style-type: none;
+  padding: 10px;
+  font-family: "Mochiy Pop One", sans-serif;
+  border-radius: 15px;
+  font-weight: 300;
+}
+
+.link {
+  color: darkorchid;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-button:hover a:hover {
+  background-color: green;
+  border-radius: 15px;
+  color: lightblue;
+}
+
+/* FOOTER PART */
+
+.footer {
+  background-color: black;
+  height: 30vh;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bottom {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-button-bottom {
+  margin: 15px;
+}
+
+.blink {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  height: 1em;
+}
