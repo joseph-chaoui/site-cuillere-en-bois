@@ -86,3 +86,27 @@ body {
   list-style-type: none;
   height: 1em;
 }
+
+.blink:hover {
+  color: lightblue;
+}
+
+.blink:active {
+  color: orange;
+}
+
+.fa {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-size: 3em;
+  color: blue;
+}
+
+.fa:hover {
+  color: red;
+}
+
+.fa:active {
+  color: orange;
+}
