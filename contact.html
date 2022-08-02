@@ -32,17 +32,65 @@
           <li class="nav-button">
             <a class="link" href="/index.html">Accueil</a>
           </li>
-          <li class="nav-button"><a class="link" href="#">Histoire</a></li>
+          <li class="nav-button">
+            <a class="link" href="/histoir.html">Histoire</a>
+          </li>
           <li class="nav-button">
             <a class="link" href="/qui_sommes_nous.html">Qui sommes nous</a>
           </li>
-          <li class="nav-button">
-            <a class="link" href="/contact.html">Contact</a>
-          </li>
+          <li class="nav-button"><a class="link" href="#">Contact</a></li>
         </ul>
       </nav>
     </div>
     <!-- body -->
+    <form action="#" class="form">
+      <label for="name">nom</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Veuillez entrer votre nom"
+        required
+      />
+      <label for="firstname">prénom</label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        placeholder="Veuillez entrer votre prénom"
+        required
+      />
+      <label for="email">email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Veuillez entrer votre email"
+        required
+      />
+      <label for="objet">Objet</label>
+      <input
+        type="text"
+        name="objet"
+        id="objet"
+        placeholder="Veuillez entrer l'objet du message"
+        required
+      />
+      <label for="area">Message</label>
+      <textarea
+        name="area"
+        id="area"
+        cols="30"
+        rows="10"
+        placeholder="Message"
+      ></textarea>
+      <label for="verification"
+        >j'accepte que mon email soit mal utiliser</label
+      >
+      <input type="checkbox" class="verification" name="verification" />
+      <label for="submit">Envoyer le formulaire</label>
+      <input type="submit" id="submit" />
+    </form>
     <!-- foot -->
     <footer class="footer">
       <nav>
@@ -51,13 +99,13 @@
             <a class="blink" href="/index.html">Accueil</a>
           </li>
           <li class="nav-button-bottom">
-            <a class="blink" href="#">Histoire</a>
+            <a class="blink" href="/histoir.html">Histoire</a>
           </li>
           <li class="nav-button-bottom">
             <a class="blink" href="/qui_sommes_nous.html">Qui sommes nous</a>
           </li>
           <li class="nav-button-bottom">
-            <a class="blink" href="/contact.html">Contact</a>
+            <a class="blink" href="#">Contact</a>
           </li>
         </ul>
       </nav>
