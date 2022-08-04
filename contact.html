@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="/contact_style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -44,52 +45,69 @@
     </div>
     <!-- body -->
     <form action="#" class="form">
-      <label for="name">nom</label>
+      <label for="name" class="label form-global top-label">nom</label>
       <input
         type="text"
         name="name"
         id="name"
         placeholder="Veuillez entrer votre nom"
         required
+        class="form-global one-line"
       />
-      <label for="firstname">prénom</label>
+      <label for="firstname" class="label form-global">prénom</label>
       <input
         type="text"
         name="firstname"
         id="firstname"
         placeholder="Veuillez entrer votre prénom"
         required
+        class="form-global one-line"
       />
-      <label for="email">email</label>
+      <label for="email" class="label form-global">email</label>
       <input
         type="email"
         name="email"
         id="email"
         placeholder="Veuillez entrer votre email"
         required
+        class="form-global one-line"
       />
-      <label for="objet">Objet</label>
+      <label for="objet" class="label form-global">Objet</label>
       <input
         type="text"
         name="objet"
         id="objet"
+        class="form-global one-line"
         placeholder="Veuillez entrer l'objet du message"
         required
       />
-      <label for="area">Message</label>
+      <label for="area" class="label form-global">Message</label>
       <textarea
         name="area"
-        id="area"
+        id="area "
         cols="30"
         rows="10"
         placeholder="Message"
+        class="form-global"
       ></textarea>
-      <label for="verification"
-        >j'accepte que mon email soit mal utiliser</label
-      >
-      <input type="checkbox" class="verification" name="verification" />
-      <label for="submit">Envoyer le formulaire</label>
-      <input type="submit" id="submit" />
+      <div>
+        <input
+          type="checkbox"
+          class="verification"
+          name="verification"
+          class="form-global"
+          required
+        />
+        <label for="verification" class="label form-global"
+          >j'accepte que mon email soit mal utiliser</label
+        >
+      </div>
+      <div>
+        <label for="submit" class="label-submit label form-global"
+          >Envoyer le formulaire</label
+        >
+        <input type="submit" id="submit" class="submit form-global" />
+      </div>
     </form>
     <!-- foot -->
     <footer class="footer">
