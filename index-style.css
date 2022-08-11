@@ -1,0 +1,35 @@
+main {
+  width: 85%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 3em;
+  margin-left: 30px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.event {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.event > h3 {
+  font-size: 2em;
+}
+
+.a-venir {
+  border: solid 2px greenyellow;
+  border-radius: 50px;
+}
+
+.passe {
+  border: solid 2px red;
+  border-radius: 50px;
+}
+
+.histoir {
+}
