@@ -1,0 +1,28 @@
+main {
+  width: 85%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: red;
+}
+
+img {
+  width: 250px;
+}
+
+.image {
+  float: left;
+  margin-right: 15px;
+}
+
+p {
+  text-align: justify;
+  height: 30em;
+}
+
+.image-bottom {
+  float: right;
+}
