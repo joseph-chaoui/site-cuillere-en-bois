@@ -1,0 +1,15 @@
+main {
+  width: 85%;
+  margin: auto;
+}
+
+div {
+  text-align: center;
+}
+
+.refrain {
+  color: red;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 50px;
+}
