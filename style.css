@@ -64,7 +64,6 @@ body {
 .footer {
   background-color: black;
   height: 30vh;
-  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,4 +108,21 @@ body {
 
 .fa:active {
   color: orange;
+}
+
+@media screen and (max-width: 1300px) {
+  .head-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-title {
+    margin: auto;
+  }
 }
